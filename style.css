@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-color: rgb(218, 107, 87);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    min-height: 100vh;
+}
+
+h1 {
+    font-family: 'Noto Sans', Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 40px 0;
+}
+
+.keys {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 18px;
+}
+
+.keys div {
+    display: flex;
+    justify-content: center;
+    gap: 14px;    flex-shrink: 1;
+}
+
+.key {
+    border: 5px solid black;
+    border-radius: 6px;
+    margin: 8px 12px;
+    padding: 12px;
+    width: 120px;
+    text-align: center;
+    background-color: white;
+    transition: all 0.02s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+
+.keys-mid-bottom .key{
+    margin: 8px 68px;
+}
+
+kbd {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 34px;
+}
+
+.sound {
+    font-size: 14px;
+}
+
+.playing {
+    transform: scale(1.03);
+    border-color: #131313;
+    box-shadow: 0 0 6px #131313;
+}

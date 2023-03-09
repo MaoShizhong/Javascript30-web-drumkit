@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+        <title>Browser Drumkit</title>
+    </head>
+    
+    <body>
+        <h1>To play the drumkit, press the corresponding key on your keyboard</h1>
+        <div class="container">
+            <div class="keys">
+                <div class="keys-top">
+                    <div data-code="Digit4" class="key">
+                        <kbd>- 4 -</kbd>
+                        <span class="sound">OPEN HI-HAT</span>
+                    </div>
+                    <div data-code="Digit5" class="key">
+                        <kbd>- 5 -</kbd>
+                        <span class="sound">CRASH</span>
+                    </div>
+                    <div data-code="Digit6" class="key">
+                        <kbd>- 6 -</kbd>
+                        <span class="sound">CHINA</span>
+                    </div>
+                </div>
+                <div class="keys-mid-top">
+                    <div data-code="KeyR" class="key">
+                        <kbd>- R -</kbd>
+                        <span class="sound">CLOSED HI-HAT</span>
+                    </div>
+                    <div data-code="KeyT" class="key">
+                        <kbd>- T -</kbd>
+                        <span class="sound">TOM 1</span>
+                    </div>
+                    <div data-code="KeyY" class="key">
+                        <kbd>- Y -</kbd>
+                        <span class="sound">TOM 2</span>
+                    </div>
+                    <div data-code="KeyU" class="key">
+                        <kbd>- U -</kbd>
+                        <span class="sound">RIDE</span>
+                    </div>
+                </div>
+                <div class="keys-mid-bottom">
+                    <div data-code="KeyF" class="key">
+                        <kbd>- F -</kbd>
+                        <span class="sound">SNARE</span>
+                    </div>
+                    <div data-code="KeyH" class="key">
+                        <kbd>- H -</kbd>
+                        <span class="sound">TOM 3</span>
+                    </div>
+                </div>
+                <div class="keys-bottom">
+                    <div data-code="KeyV" class="key">
+                        <kbd>- V -</kbd>
+                        <span class="sound">KICK 1</span>
+                    </div>
+                    <div data-code="KeyB" class="key">
+                        <kbd>- B -</kbd>
+                        <span class="sound">KICK 2</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <audio data-code="Digit4" src="./custom%20sounds/OPENHAT.wav"></audio>
+        <audio data-code="Digit5" src="./custom%20sounds/CRASH.wav"></audio>
+        <audio data-code="Digit6" src="./custom%20sounds/CHINA.wav"></audio>
+        <audio data-code="KeyR" src="./custom%20sounds/CLOSEHAT.wav"></audio>
+        <audio data-code="KeyT" src="./custom%20sounds/TOM1.wav"></audio>
+        <audio data-code="KeyY" src="./custom%20sounds/TOM2.wav"></audio>
+        <audio data-code="KeyU" src="./custom%20sounds/RIDE.wav"></audio>
+        <audio data-code="KeyF" src="./custom%20sounds/SNARE.wav"></audio>
+        <audio data-code="KeyH" src="./custom%20sounds/TOM3.wav"></audio>
+        <audio data-code="KeyV" src="./custom%20sounds/KICK1.wav"></audio>
+        <audio data-code="KeyB" src="./custom%20sounds/KICK2.wav"></audio>
+    </body>  
+</html>
